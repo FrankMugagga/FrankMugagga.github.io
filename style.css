@@ -27,6 +27,7 @@ body {
   background-image: url("images/header-background.png");
   background-repeat: no-repeat;
   background-size: 100%;
+  border-bottom-left-radius: 100px;
 }
 
 .app_head_nav {
@@ -203,8 +204,9 @@ h1 {
   display: grid;
   grid-template-columns: auto;
   gap: 88px;
-  padding: 114px 24px;
-  width: 92%;
+  padding-top: 88px;
+  padding-left: 8%;
+  width: 91%;
   height: 2788px;
 }
 
@@ -224,8 +226,12 @@ h1 {
   flex-grow: 0;
 }
 
+.snap_cont {
+  width: 100%;
+}
+
 .portfolio_snap_1 {
-  width: 120%;
+  width: 100%;
   height: 220px;
   border-radius: 8px;
   flex: none;
@@ -237,7 +243,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 380%;
+  width: 100%;
   height: 288px;
   flex: none;
   order: 1;
@@ -331,7 +337,7 @@ h1 {
 }
 
 .paragraph_details {
-  width: 26%;
+  width: 100%;
   height: 76px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -468,7 +474,7 @@ h1 {
 .about_self {
   display: flex;
   flex-direction: column;
-  width: 93%;
+  width: 91%;
   height: 1125.15px;
   background: #fff;
   border-top-right-radius: 100px;
@@ -503,7 +509,7 @@ h1 {
 }
 
 .text_parag {
-  width: 90%;
+  width: 99%;
   height: 144px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -592,6 +598,7 @@ h1 {
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin-top: 10px;
 }
 
 .languages_frame {
@@ -615,7 +622,6 @@ h1 {
 
 .lang {
   height: 24px;
-  left: 12px;
   right: 78px;
   top: calc(50% - 24px / 2);
   font-family: 'Poppins', sans-serif;
@@ -624,7 +630,6 @@ h1 {
   font-size: 20px;
   line-height: 24px;
   color: #000;
-  padding-left: 20px;
 }
 
 .menu_drop_down {
@@ -651,6 +656,7 @@ h1 {
   order: 0;
   flex-grow: 0;
   list-style: none;
+  padding-left: 0;
 }
 
 .lan_jav {
@@ -735,7 +741,7 @@ h1 {
 }
 
 .contact_header {
-  width: 801px;
+  width: 100%;
   height: 56px;
   left: -213px;
   top: 4734px;
@@ -750,7 +756,7 @@ h1 {
 }
 
 .contact_para {
-  width: 327px;
+  width: 80%;
   height: 102px;
   left: 24px;
   top: 4802px;
@@ -894,7 +900,7 @@ textarea::placeholder {
     box-sizing: border-box;
   }
 
-  .phone_template {
+   .phone_template {
     width: 100%;
   }
 
@@ -1038,7 +1044,7 @@ textarea::placeholder {
   }
 
   .header_details_name {
-    width: 75px;
+    width: 90px;
     height: 24px;
   }
 
@@ -1077,13 +1083,13 @@ textarea::placeholder {
     display: flex;
     width: 100%;
     height: 742px;
-    padding-left: 142px;
+    padding-left: 100px;
     padding-top: 142px;
     flex-direction: row;
   }
 
   .top_information {
-    width: 40%;
+    width: 43%;
     height: 392px;
     margin-right: 37px;
   }
@@ -1097,7 +1103,7 @@ textarea::placeholder {
   .text_parag {
     width: 100%;
     height: 102px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   .get_resume_container {
@@ -1116,12 +1122,12 @@ textarea::placeholder {
   }
 
   .skill_set {
-    width: 60%;
+    width: 50%;
     display: flex;
   }
 
   .languages_frame {
-    width: 80%;
+    width: 90%;
     height: 216px;
     margin-top: 30px;
     padding-left: 0;
@@ -1140,7 +1146,7 @@ textarea::placeholder {
   .lang_list {
     display: flex;
     flex-direction: row;
-    width: 70%;
+    width: 50%;
     height: 144px;
     padding-left: 0;
     margin-left: 0;
@@ -1150,13 +1156,14 @@ textarea::placeholder {
   .lan_jav {
     display: flex;
     flex-direction: column;
-    width: 120%;
+    justify-content: center;
+    width: 100%;
     height: 120px;
     margin-left: 10px;
   }
 
   .frame_works {
-    width: 80%;
+    width: 90%;
     height: 72px;
     padding-left: 0;
     margin-left: 0;
